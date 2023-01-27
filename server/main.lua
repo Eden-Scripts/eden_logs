@@ -97,7 +97,3 @@ end
 
 exports('sendDiscordLog', sendDiscordLog)
 RegisterNetEvent('eden_logs:sendDiscordLog', sendDiscordLog)
-
-RegisterCommand('test2', function(source)
-    sendDiscordLog('connect', 'Player joining', 'This is a test webhook', source)
-end, false)
